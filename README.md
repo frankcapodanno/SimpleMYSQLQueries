@@ -18,6 +18,8 @@ more informations francesco@capodanno.click
 
 For testing proupouse you need to install MYSQL DB and create a DB 
 with this feauters (you can copy and paste this script in your MYSQL Shell):
+
+
 <code>
 CREATE DATABASE IF NOT EXISTS `test_connections` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
