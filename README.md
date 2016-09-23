@@ -15,3 +15,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 This software work with Java Technologies and is for teoretical use only.
 more informations francesco@capodanno.click
+
+For testing purpose you need to install a MYSQL DB and create a DB 
+with this feauters (you can copy and paste this script in your MYSQL Shell):
+
+
+<code>
+CREATE DATABASE IF NOT EXISTS `test_connections` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+USE `test_connections`;
+
+CREATE TABLE `simple_data` (
+  `id` int(11) NOT NULL,
+  `uname` varchar(255) COLLATE utf8_bin NOT NULL,
+  `name` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `data` text COLLATE utf8_bin
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+</code>
