@@ -23,7 +23,7 @@ public class IsInDB {
     }
     
     /**
-     * This method look a "ver" value is in a specific "column" of a specific table in standard DB "ergousersdb"
+     * This method look a "ver" value is in a specific "column" of a specific table in the main DB
      * @param ver element to search example "frank"
      * @param column column to search example uname
      * @param table table to search example myMembers
