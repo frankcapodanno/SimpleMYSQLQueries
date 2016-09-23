@@ -16,7 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 This software work with Java Technologies and is for teoretical use only.
 more informations francesco@capodanno.click
 
-For testing proupouse you need to install MYSQL DB and create a DB 
+For testing purpose you need to install MYSQL DB and create a DB 
 with this feauters (you can copy and paste this script in your MYSQL Shell):
 
 
